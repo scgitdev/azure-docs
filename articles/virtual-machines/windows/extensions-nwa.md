@@ -93,7 +93,7 @@ Set-AzureRmVMExtension -ResourceGroupName "myResourceGroup1" `
 Data about the state of extension deployments can be retrieved from the Azure portal, and by using the Azure PowerShell module. To see the deployment state of extensions for a given VM, run the following command using the Azure PowerShell module.
 
 ```powershell
-Get-AzureRmVMExtension -ResourceGroupName myResourceGroup1 -VMName myVM1 -Name networkWatcherAgent
+Get-AzureRmVMExtension -ResourceGroupName myResourceGroup1 -VMName myVM1 -Name AzureNetworkWatcherExtension
 ```
 
 Extension execution output is logged to files found in the following directory:
