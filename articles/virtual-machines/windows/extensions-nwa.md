@@ -80,7 +80,7 @@ The `Set-AzureRmVMExtension` command can be used to deploy the Network Watcher A
 Set-AzureRmVMExtension -ResourceGroupName "myResourceGroup1" `
                        -Location "WestUS" `
                        -VMName "myVM1" `
-                       -Name "networkWatcherAgent" `
+                       -Name "AzureNetworkWatcherExtension" `
                        -Publisher "Microsoft.Azure.NetworkWatcher" `
                        -Type "NetworkWatcherAgentWindows" `
                        -TypeHandlerVersion "1.4"
